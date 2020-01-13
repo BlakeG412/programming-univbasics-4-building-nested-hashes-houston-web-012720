@@ -28,7 +28,12 @@ def monopoly_with_third_tier
        :three => 7, 
        :four => 8
      },
-     :names => {}
+     :names => {
+       :key1 => 1,
+       :key2 => 2,
+       :key3 => 3,
+       :key4 => 4
+     }
     }
   }
   # When you start writing the implementation for this method, copy the Hash
